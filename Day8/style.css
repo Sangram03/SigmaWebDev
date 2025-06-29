@@ -1,0 +1,25 @@
+*{
+    background-color: #efeeee;
+}
+
+
+p{
+    background-color: aquamarine;
+}
+
+
+a{
+    background-color: rgb(171, 43, 43);
+}
+
+div{
+    background-color: yellow;
+}
+
+input{
+    display: flex;
+}
+
+span {
+    background-color: blueviolet;
+}

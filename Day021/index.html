@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* the Cascade Algorithm */
+        /* inline style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector */
+
+        /* if someone used important then hightest piority */
+
+        /* The specificity of this selector is 1 */
+        h1{
+            color: aqua !important;
+        }
+        /* The specificity of this selector is 10 */
+        .yellow{
+            color: yellow;
+        }
+        /* The specificity of this selector is 10 +1 */
+        h1.yellow{
+            color: green;
+        }
+        /* The specificity of this selector is 10 */
+        .cred{
+            color: red;
+        }
+        /* The specificity of this selector is 10 */
+        .cpurple{
+            color: purple;
+        }
+         /* this is an example of attribute selector The specificity of this selector is 10 */
+        [data-x=a]{
+            background-color: red;
+
+        }
+        /* The specificity of this selector is 1 + 10 + 10 + 10  +10 +10 (sudo class)=41*/
+        a.harryclass.rohan-class[href]:hover{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+    </div>
+</body>
+</html>

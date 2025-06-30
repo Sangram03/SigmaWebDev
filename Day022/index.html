@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 12px;
+        }
+        .box{
+            border: 2px solid black;
+            /* width: 233px; */
+            width: 100vh;
+            margin: auto;
+            height: 10vh;
+            /* viewport */
+            background-color: aquamarine;
+        }
+        .container{
+            border: 2px solid black;
+            /* width: 233px; */
+            width: 100vh;
+            margin:23px auto;
+            height: 80vh;
+            font-size: 16px;
+            /* viewport */
+            background-color: aquamarine;
+        }
+        .container > div{
+           /* font-size: 1em;  */
+           font-size: 1rem; 
+           border: 2px solid red;
+           width: 50%;
+        }
+        .conatainer > div > div {
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .mycont{
+            box-sizing: border-box;
+            margin: 23px auto;
+            border: 2px solid black;
+            background-color: red;
+            color: yellow;
+            font-size: 22px;
+            width: 80vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        this is box
+    </div>
+    <div class="container">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam voluptatibus dolorum quis facilis vel, aliquam voluptas impedit accusamus, quos ratione beatae deserunt excepturi est vitae corporis placeat sit itaque totam. Cum sapiente a nulla deleniti veritatis culpa velit at numquam reprehenderit maiores. Nobis, laboriosam assumenda minima impedit vero excepturi dolor delectus tempora dolorum consequuntur .
+    </div>
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur fugiat officiis recusandae dolorem maiores minus nulla consequatur accusamus esse facere! Libero, hic officia!</div>
+    </div>
+    <div class="mycont">
+        I am a another container
+    </div>
+</body>
+</html>

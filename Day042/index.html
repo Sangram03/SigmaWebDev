@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: beige;
+            border: 2px solid black;
+            /* transform: rotate(40deg); */
+            transform: rotate(0.125turn);
+            /* transform: rotateX(40deg); */
+            /* transform: rotateY(9deg); */
+            /* transform: rotateZ(40deg); */
+            /* transform: scale(1.6); */
+            transform: skew(5deg);
+            /* skew doesnot support z-index */
+            /* transform: translateX(34px); */
+            /* transform: translateY(100%) skew(40deg) translateX(45%); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           box
+        </div>
+        <!-- check the github link to findout all transformation -->
+    </div>
+</body>
+</html>

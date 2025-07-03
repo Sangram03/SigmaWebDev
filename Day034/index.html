@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Float & Clear</title>
 </head>
+<style>
+    .cards{
+        border: 2px solid black;
+        display:flow-root;
+    }
+    img{
+        float: left;
+    }
+
+    .card{
+        border: 2px solid red;
+    }
+    .card:nth-child(2){
+        background-color: aqua;
+        clear: both;
+    }
+</style>
 <body>
     <div class="cards">
-        <div class="card">Card 1</div>
-        <div class="card">Card 2</div>
+        <img src="logo.jpg" alt="">
+        <div class="card">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quo dignissimos ipsum. Error excepturi nam veniam vero at corrupti cum adipisci. Harum ut quia quaerat incidunt, iusto vitae inventore possimus tenetur blanditiis reiciendis sequi.</p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex architecto vero suscipit saepe quibusdam perspiciatis, reprehenderit est non reiciendis vel voluptate consequuntur culpa illo sapiente quidem soluta corrupti blanditiis eos tempore iste! Reprehenderit nisi recusandae explicabo minima distinctio animi repudiandae commodi dolore harum officia, voluptatem neque minus quos eaque blanditiis sit suscipit rem ipsum similique quas quam accusamus. Eos, ullam est consequatur adipisci a magni iure, molestiae natus nobis, molestias distinctio hic eveniet maiores autem quas.</div>
         <div class="card">Card 3</div>
     </div>
 </body>

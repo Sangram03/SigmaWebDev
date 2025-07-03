@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container{
+            background-color: rgb(105, 230, 230);
+            height: 80vh;
+            width: 30vw;
+
+        }
+        .box{
+            width: 34px;
+            height: 45px;
+            /* background-color: aqua; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation: harryKaAnimation;
+            animation-duration: 3s ; */
+            /* animation-iteration-count: 3; */
+            /* animation-iteration-count: infinite;
+            animation-timing-function: ease-out;
+            animation-delay: 1s; */
+            /* animation-direction: reverse; */
+            /* animation-play-state: paused; */
+            animation:harryKaAnimation 3s ease-in-out 2s infinite ,
+            harry 3s ease-in-out 3s 1;
+        }
+        @keyframes harryKaAnimation {
+            from{
+                transform: translateX(10px);
+                background-color: red;
+            }
+            to{
+                transform: translateX(1000px);
+                background-color: yellow;
+            }
+        }
+        @keyframes harry {
+            0%{
+                transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(200deg);
+
+            }
+            50%{
+                transform: rotate(220deg);
+
+            }
+            80%{
+                transform: rotate(300deg);
+
+            }
+            100%{
+                transform: rotate(310deg);
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>

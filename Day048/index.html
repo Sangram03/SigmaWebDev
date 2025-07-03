@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            height: 80vh;
+            width: 80vw;
+            background-color: blue;
+        }
+        .box{
+            height: 121px;
+            width: 121px;
+            background-color: red;
+            border-radius: 70px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation: rotate 2s ease-in-out 2s 2;
+            
+
+
+        }
+        @keyframes rotate {
+            from{
+               transform: translateX(10px) translateY(10px);
+               
+            }
+            to{
+               transform: translateX(275px) translateY(200px);
+            }
+        }
+        @keyframes rotate2 {
+            from{
+                transform: translateY(0px);
+            }
+            to{
+                transform: translateY(-200px);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>

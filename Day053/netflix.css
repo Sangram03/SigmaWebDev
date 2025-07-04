@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px , 100vw);
+    height: 80vh;
+    position: relative;
+}
+body{
+    background-color: black;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+/* some doubts in the position make a seperate class for it. */
+
+nav{
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans',sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero > :nth-child(1){
+    font-family: "poopins";
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero:nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.seperation{
+    height: 7px;
+    background-color:rgb(55, 54, 54) ;
+}
+
+.btn{
+    padding: 3px 8px;
+    background-color: rgb(96, 89, 89);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 3px 24px;
+    font-size: 20px;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(239, 229, 229, 0.5);
+}
+.btn-red-sm{
+    background-color: red;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.secImg{
+   width: 25vw;
+}
+
+section.first .my {
+    display: flex;
+    flex-direction: column;
+}
+
+section .first > div :first-child{
+    font-size: 44px;
+    font-weight: bolder;
+    
+}
+section .first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+}

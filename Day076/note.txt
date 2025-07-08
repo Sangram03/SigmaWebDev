@@ -1,0 +1,32 @@
+settle means reslove or reject
+
+
+reslove means promise has settled successfully
+reject means promise has not settled successfully
+
+
+// Example POST method implementations
+
+async function postData(url = "", data = {}){
+    //Default opition are marked with *
+  const response = await fetch (url , {
+    method: "POST", // *GET,POST ,PUT ,DELETE ,etc.
+    mode: "cors", //no-cors , *cors , same-origin
+    cache : "no-cache" //*default , no-cache , reload , force-cache , only-if-cached
+    credentials:"same-origin", // include, *same-origin, omit
+    headers: {
+        "Content-Type":"aplication/json",
+        // *Content-Type : 'application/x-www-form-urlencoded',
+    },
+    redirect : "folllow", // manual , *follow , error
+    referrerPolicy: "no-refferer", // no-deffered ,"no-refferer-when-downgrade, origin, origin-when-cross-origin,same-origin
+    body:JSON.stringify(data), //body data type must match "Content-Type" headers
+  });
+  return response.json(); // parser JSON response into native javascript objects
+}
+postData("https://example.com/answer",{ answer: 42}).then((data)=>{
+    console.logh(data);// JSON data parsed by `data.json()`call
+});
+
+
+

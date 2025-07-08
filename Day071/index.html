@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container red bg-green">
+        <div class="box" style="display: flex;" data-createdby="harry">Hey I am a box</div>
+    </div>
+    <script>
+        // let div = document.createComment("div");
+        // div.innerHTML = "I have been inserted <b>by harry</b>"
+        // div.setAttribute("class","cretaed")
+        // // added a new elemen in the end
+        // document.querySelector(".container").append(div);
+
+        let cont = document.querySelector(".container")
+        cont.insertAdjacentHTML("afterend", <b> I am Sangram </b>)
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        position: relative;
+      }
+      .container > span {
+        position: absolute;
+        border: 2px solid red;
+        top: 113px;
+        left: 210px;
+        color: white;
+      }
+      .container img {
+        height: 144px;
+        width: 260px;
+      }
+      .container4 {
+        display: flex;
+        gap: 23px;
+        padding: 12px;
+        font-weight: 700;
+      }
+      @media screen and (min-width: 850px) {
+        .container > span {
+          top: 115px;
+          left: 181px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./photo.png" alt="" />
+      <span>31:22</span>
+      <div class="container3">
+        <h1>Introduction to Backend | Sigma Web Dev video #2</h1>
+        <div class="container4">
+          <span>CodeWithHarry</span>
+          <span>560000</span>
+          <span>7</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="test.js"></script>
+  </body>
+</html>

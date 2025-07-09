@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Create a hacking simulator which has a green background and it shows these messages with random delay of 1 to 7 seconds. 
+     
+    Initalizing Hacking ...
+    Reading your Files .....
+    Password files Detected ...
+    Sending all password and personal files to server ....
+    cleaning up ....
+
+    The three dots must blink so that it looks like a real terminal
+    -->
+
+    <script>
+           let array = [
+              "Initalizing Hacking ..." ,
+      " Reading your Files .....  ",
+             "Password files Detected ..." ,
+       "Sending all password and personal files to server ....",
+       "cleaning up ...."
+           ];
+           function delay(ms) {
+               return new Promise (reslove => setTimeout
+                   (reslove,ms));
+           }
+           async function printLines() {
+               for (let index = 0; index < array.length; index++) {
+                   await delay(1000);
+                   console.log(`line ${array[index]}`);
+               }
+           }
+           printLines()
+    </script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+### 1 `The Magical Sorting Hat : imagine you are creating a magical sorting hat for a wizard school implement a JavaScript function that takes an array of student names and assigning them to one of the four houses (Gryffinder (length less than 6), Hufflepuff(length less than 8). Ravenclaw(length less than 12),or Slytherin(length greater then or equal to 12)) based on the length of their names.`
+ ###  2      `The Double Trouble: You are tasked with writing a function that doubles each elements in an array. However, there's a catch ; if the array contains consective elements. only double one of them.`
+ ### 3 `The Mirror Mirror:Imagine You have a string , and you need to create a new string thats is mirrior image of the original. Write a function that appends the reversed version of the original string of it self.`
+ ### 4 `The Passwword Validator: You are building a pasword validation features.Create a function that checks if a given password meets the following criteria: at least 8 characters long .contains both uppercase and lowercase letters, and includes at least one digit.`
+ ### 5 `The Sum Selector : You are working on  function that should sum all numbers in an array until it .`
+### 6 `The Vowel Counter : You need to create a function  that counts the number of vowels in a given string. Consider both uppercase and lowercase vowels.`
+### 7 `The Local Storage Manager: You are working on a note-taking app,and you want to implements a function named saveNoteToLocalStorage that takes a note object and saves it to the broswer's local storage.`

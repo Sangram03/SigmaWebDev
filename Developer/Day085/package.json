@@ -1,0 +1,19 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "This is a sportify clone for my app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Sporify",
+    "music"
+  ],
+  "author": "Sangram Das",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

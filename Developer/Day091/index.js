@@ -1,4 +1,4 @@
-// You have to write a Node.js program to clear clutter inside ofa dictory and organize the contents of that dictory into different folders
+// You have to write a Node.js program to clear clutter inside of a dictory and organize the contents of that dictory into different folders
 
 // for example, these files becomes:
 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why React?</title>
+    <style>
+        .box{
+            color: red;
+            height: 121px;
+            width: 121px;
+            border: 2px solid black;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">I am box 1</div>
+    <div class="box box2">I am box 2</div>
+    <div class="box box3">I am box 3</div>
+    
+    
+</body>
+<script>
+    let box1 = "Hey";
+    let box2 = "Hey";
+    let box3 = "Hey";
+    setTimeout(() => {
+        document.querySelector(".box1").innerHTML = "Hey"
+
+    },1000);
+    setTimeout(() => {
+        document.querySelector(".box2").innerHTML = "Hi"
+
+    },1000);
+    setTimeout(() => {
+        document.querySelector(".box3").innerHTML = "Hello"
+
+    },1000);
+</script>
+</html>

@@ -1,7 +1,7 @@
 # 🌐 SigmaWebDev 🚀  
 ````markdown
 
-The Complete Web Development Course** – Learn to build modern, scalable, and beautiful web applications from scratch.  
+The Complete Web Development Course – Learn to build modern, scalable, and beautiful web applications from scratch.  
 ````
 ![Sigma Banner](https://img.shields.io/badge/Sigma-WebDev-blueviolet?style=for-the-badge&logo=react&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)

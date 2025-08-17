@@ -1,0 +1,8 @@
+.hii{
+    color: aqua;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}

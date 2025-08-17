@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+}
+
+nav , ul{
+    display: flex;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    gap: 20px;
+    padding: 23px;
+}
